@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+body{
+  background-color:#c4c0c0;
+}
+li{
+  color: #320101;
+}
+a{
+  color: #a27c82;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
