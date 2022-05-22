@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Formulário</h1>
+        <br>
+    </div>
+    <form action="">
+        <fieldset>
+            <div>
+                <label>Nome:</label>
+                <input type="text" name="Nome" id="Nome">
+            </div>
+            <div>
+                <label>Sobrenome</label>
+                <input type="text" name="Sobrenome" id="Sobrenome">
+            </div>
+        </fieldset>
+        <div>
+            <label>Email</label>
+            <input type="email" name="Email" id="Email">             
+        </div>
+        <div>
+            <label>Você Cozinha?</label>
+            <label>
+                <input type="radio" name="marque" value="Sim">Sim
+            </label>
+            <label>
+                <input type="radio" name="marque" value="Não">Não
+            </label>
+        </div>
+        <div>
+            <label>Qual Dessas Comidas Você MAIS Gosta?</label>
+            <select id="seleciona">
+                <option selected disabled value="">Selecione</option>
+                <option>CupNoodles</option>
+                <option>Strogonoff</option>
+                <option>Pão com Ovo</option>
+            </select>
+        </div>
+        <fieldset>
+            <div>
+                <label>Quais Dessas Comidas Você NÃO Come?</label>
+                <input type="checkbox" id="comida1" name="comida1" value="Feijão">
+                <label for="Feijão">Feijão</label>
+                <input type="checkbox" id="comida2" name="comida2" value="Salada">
+                <label for="Salada">Salada</label>
+                <input type="checkbox" id="comida3" name="comida3" value="Fígado">
+                <label for="Fígado">Fígado</label>
+            </div>
+        </fieldset>
+        <div>
+            <label>Conte Nos Aqui Sua Experiência:</label>
+            <textarea row="6" style="width: 26em" id="Conta" name="Conta"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
